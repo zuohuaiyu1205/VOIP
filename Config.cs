@@ -11,11 +11,8 @@ namespace Montage
         int bufferCount;
         int bufferSize;
         
-        string waveFolder;
+        string waveFolder;        
         
-        //public string WorkFolder = @"C:\Users\weilaoshi\works\ebem-src\data\temp";
-        //public string HistoryFolder = @"C:\Users\weilaoshi\works\ebem-src\data\temp\0000";
-        //public string WaveFolder = @"C:\Users\weilaoshi\works\ebem-src\data\temp\0000";
         /// <summary>
         /// 小于此长度的IP报文将被忽略
         /// </summary>
@@ -27,10 +24,7 @@ namespace Montage
         /// <summary>
         /// 孤立持续时间阈值
         /// </summary>
-        public int IsolatedThreshold;
-        /// <summary>
-        /// 开启调试模式
-        /// </summary>
+        public int IsolatedThreshold;        
         public bool IsDebug;
         /// <summary>
         /// 文件名正则表达式
